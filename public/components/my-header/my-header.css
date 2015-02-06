@@ -1,0 +1,21 @@
+strong {
+	background-color: {{color}};
+}
+
+div {
+	top: 0;
+	width: 100%;
+	position: absolute;
+}
+
+:host ::content span {
+	background-color: green;
+}
+
+:host ::content strong {
+	background-color: green;
+}
+
+:host div {
+	ckground-color: lightblue;
+}

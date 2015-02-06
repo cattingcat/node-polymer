@@ -1,0 +1,38 @@
+<polymer-element name="my-header" attributes="color" >
+  <template>
+    <style>
+      strong {
+        background-color: {{color}};
+      }
+      div {
+        top: 0;
+        width: 100%;
+        position: absolute;
+      }
+      :host ::content span {
+        background-color: green;
+      }
+      :host ::content strong {
+        background-color: green;
+      }
+      :host div {
+        background-color: lightblue;
+      }
+    </style>
+
+
+    <div>
+      <input type="text" value={{color}} > </input>
+      <strong> Header </strong>
+    	<content select="strong"></content>
+      <content select="span"></content>
+
+    </div>
+  </template>
+
+
+  <script src="my-header.js">
+
+  </script>
+
+</polymer-element>

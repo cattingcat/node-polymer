@@ -1,0 +1,21 @@
+﻿{
+  "name": "polymer-node",
+  "version": "0.0.1",
+  "description": "polymer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zxc123zxc/node-chat.git"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-sass": "*"
+  },
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*",
+    "mongodb": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

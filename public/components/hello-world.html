@@ -1,0 +1,15 @@
+<polymer-element name="hello-world">
+  <template>
+    <span>Hello from <b>my-element</b>. This is my Shadow DOM.</span>
+    <div>
+    	<content></content>
+    </div>
+  </template>
+  <script>
+  Polymer({
+  	ready: function(){
+  		console.log('my element is ready');
+  	}
+  })
+  </script>
+</polymer-element>

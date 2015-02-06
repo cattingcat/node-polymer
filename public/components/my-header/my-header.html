@@ -1,0 +1,18 @@
+<polymer-element name="my-header" attributes="color" >
+  <template>
+    <link rel="stylesheet" type="text/css" href="my-header.css">
+
+
+    <div>
+      <input type="text" value={{color}} > </input>
+      <strong> Header </strong>
+    	<content select="strong"></content>
+      <content select="span"></content>
+
+    </div>
+  </template>
+
+
+  <script src="my-header.js"></script>
+
+</polymer-element>
